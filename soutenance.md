@@ -46,7 +46,7 @@ mathjax.centerDisplayMath: true
 ![An imager like Hubble is not able to observe narrow band emitters.](./img/limite_imageur.svg){.class width=90% }
 
 ## Need for a new instrument
-[]!(./img/astronomy.png)
+![](./img/astronomy.png)
 
 ## The MUSE Project
 <div class="columns">
