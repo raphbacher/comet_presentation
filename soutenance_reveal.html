@@ -217,35 +217,6 @@
  <use xlink:href="#E1-MJMAIN-2192" x="0" y="0"></use>
 </g>
 </svg> need to explore a great number of pixels around the galaxy in search of the Lyman signature.</p>
-</section><section id="détecter-une-source-pureté" class="slide level2">
-<h2>Détecter une source pureté</h2>
-<pre><code>    - une image source Ã©tendue (vÃ©ritÃ©  terrain),
-    - la meme image bruitÃ©e (donnÃ©es),
-    - une carte binaire (dÃ©cision) obtenue  pex en seuillant l&#39;image (on pourrait ajouter des contraintes de connexitÃ©,  peu importe, tu peux le prÃ©ciser Ã  l&#39;oral)
-  pour introduire la notion de puretÃ© du rÃ©sultat utilisÃ©e en astro -&gt; proportion de pixels qui appartiennent rÃ©ellement Ã  la source parmi ceux detectÃ©s -&gt;Lien avec le FDP.
-  Comment avoir des garanties sur le rÃ©sultat ? contrÃ´le possible de cette proportion en proba (il y a des mÃ©thodes qui visent Ã  controle P(FPD&gt;alpha)&lt;epsilon, ce qui donne un contrÃ´le plus fort mais une procÃ©dure bien plus conservative que le FDR), ou plus classiquement en moyenne -&gt; le FDR</code></pre>
-</section><section id="state-of-the-art" class="slide level2">
-<h2>State of the art</h2>
-<h3>
-Detectors
-</h3>
-<ul>
-<li>GLR (Generalized Likelihood Ratio) Test
-<ul>
-<li>Powerful test if noise is well characterized</li>
-<li>Need a parametric model of the noise distribution</li>
-</ul></li>
-</ul>
-<h3>
-Classification
-</h3>
-<ul>
-<li>Markov fields (Courbot 2016)
-<ul>
-<li>Powerful spatial regularization</li>
-<li>Hard to tune a threshold for a power/error control compromise</li>
-</ul></li>
-</ul>
 </section><section id="our-detection-problem" class="slide level2">
 <h2>Our detection problem</h2>
 <p><em>Goal</em> : Detect a quasi-connected multipixel target, while ensuring global control of errors</p>
@@ -400,6 +371,7 @@ Classification
 <figure>
 <img src="./img/exempleHalo.svg" class="class" style="width:30.0%" />
 </figure>
+<p>How to have guaranties on the detection results, like the proportion of pixels among the detected set that are really part of the target (&quot;purity of the detection&quot;) ?</p>
 </section><section id="multiple-testing-22" class="slide level2">
 <h2>Multiple testing (2/2)</h2>
 <div class="center_custom">

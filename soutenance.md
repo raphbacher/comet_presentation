@@ -144,28 +144,6 @@ Halo properties:
 <br>
 $\rightarrow$ need to explore a great number of pixels around the galaxy in search of the Lyman signature.
 
-## Détecter une source pureté
-
-        - une image source Ã©tendue (vÃ©ritÃ©  terrain),
-        - la meme image bruitÃ©e (donnÃ©es),
-        - une carte binaire (dÃ©cision) obtenue  pex en seuillant l'image (on pourrait ajouter des contraintes de connexitÃ©,  peu importe, tu peux le prÃ©ciser Ã  l'oral)
-      pour introduire la notion de puretÃ© du rÃ©sultat utilisÃ©e en astro -> proportion de pixels qui appartiennent rÃ©ellement Ã  la source parmi ceux detectÃ©s ->Lien avec le FDP.
-      Comment avoir des garanties sur le rÃ©sultat ? contrÃ´le possible de cette proportion en proba (il y a des mÃ©thodes qui visent Ã  controle P(FPD>alpha)<epsilon, ce qui donne un contrÃ´le plus fort mais une procÃ©dure bien plus conservative que le FDR), ou plus classiquement en moyenne -> le FDR
-
-
-## State of the art
-
-<h3> Detectors</h3>
-- GLR (Generalized Likelihood Ratio) Test
-    - Powerful test if noise is well characterized
-    - Need a parametric model of the noise distribution
-
-<h3> Classification </h3>
-- Markov fields (Courbot 2016)
-    - Powerful spatial regularization
-    - Hard to tune a threshold for a power/error control compromise
-
-
 ## Our detection problem
 *Goal* : Detect a quasi-connected multipixel target, while ensuring global control of errors
 
@@ -192,6 +170,8 @@ We have $n$ (~ 2500) pixels to test for :
 - Which pixels have signal ? / Which pixels belong to the galactic halo ?
 
 ![](./img/exempleHalo.svg){.class width=30%}
+
+How to have guaranties on the detection results, like the proportion of pixels among the detected set that are really part of the target ("purity of the detection") ? 
 
 ## Multiple testing (2/2)
 <div class="center_custom">
