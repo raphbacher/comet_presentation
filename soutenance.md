@@ -58,7 +58,7 @@ mathjax.centerDisplayMath: true
 </div>
 </div>
 * 3D Spectrograph
-* European Consortium, piloted by CRAL à Lyon
+* European Consortium, piloted by CRAL at Lyon
 * Observing since january 2014, already one of the most asked instrument of VLT
 
 ## Hyperspectral datacube
