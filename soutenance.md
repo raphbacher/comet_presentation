@@ -8,7 +8,7 @@ progress: false
 controls: true
 slideNumber: true
 menu: true
-broadcast: true
+broadcast: false
 parallax: true
 center: false
 logo: true
@@ -17,6 +17,7 @@ transition: slide
 minScale: 0.2
 maxScale: 1.5
 margin: 0.05
+mathjax.centerDisplayMath: true
 ---
 
 \renewcommand{\beps}{\boldsymbol{\epsilon}}
@@ -99,8 +100,6 @@ We want to detect hydrogen gas surrounding galaxies :
  </video>
 -->
 
-*The Lyman-$\alpha$ emission line is thus shifted from ultra-violet (121nm) when emitted, to MUSE spectral domain (450-950nm) for remote objects (at more than 12 billions light-years).*
-
 <br>
 
 $\rightarrow$ Calls for detection methods adapted to these huge datasets.
@@ -171,6 +170,8 @@ $\rightarrow$ need to explore a great number of pixels around the galaxy in sear
 *Goal* : Detect a quasi-connected multipixel target, while ensuring global control of errors
 
 On each pixel $i$, detection of a positive signal using a one-sided test :
+
+<div class="center_custom">
 $$
 \left\{
 \begin{array}{ll}
@@ -180,7 +181,7 @@ $$
 \right.
 \label{eq:testingPb0}
 $$
-
+</div>
 - $\beps \in \mathbb{R}^l$ : noise vector of unknown distribution but **symmetrical* by hypothesis* ;
 - $\bd \in \mathbb{R}^l$ : known reference (Lyman signature) ;
 - $\by_i \in \mathbb{R}^l$ : spectrum vector
@@ -263,6 +264,7 @@ To get a FDR less or equal to $q$  when doing $n$ tests :
 * Reject null hypothesis for all $p_{(i)}$,  $i = 1, \ldots, \widehat{k}$
 
 In case of independence (or under some special cases of dependencies) of the tests, the BH procedure ensures an exact control of FDR"
+
 <br>
 
 *By design, the power of the BH procedure decreases when the number of tests increases (with a fixed number of $\mathcal{H}_1$).*
