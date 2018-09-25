@@ -293,7 +293,7 @@ $\rightarrow$ *empirical* BH (EBH)
 
 Build control statistics  $w_i$ that are
 
-* symmetrical under $\mathcal{H}_0$, i.e. $\mathbb{P}(w_i>t | i \in \mathcal{H}_0)=\mathbb{P}(w_i<t | i \in \mathcal{H}_0)$,
+* symmetrical under $\mathcal{H}_0$, i.e. $\mathbb{P}(w_i>t | i \in \mathcal{H}_0)=\mathbb{P}(w_i<-t | i \in \mathcal{H}_0)$,
 * stochastically greater under $\mathcal{H}_1$, i.e. $\mathbb{P}(w_i>t | i \in \mathcal{H}_1)>\mathbb{P}(w_i>t | i \in \mathcal{H}_0)$.
 
 <br>
