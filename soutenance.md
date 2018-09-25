@@ -276,6 +276,8 @@ $p$-value associated to the pixel $i$ : $p_i = 1-\hat{F}_0(w_i)$.
 We can then apply the BH procedure to the empirical $p$-values
 $\rightarrow$ *empirical* BH (EBH)
 
+![](./img/compiling.png)
+
 ## Barber et Candes procedure (BC)
 *BH procedure : the most well known but not always the most relevant*.
 
@@ -321,6 +323,10 @@ $$
 <div class=notice-box>
 With these control statistics,   and BC procedures can be shown to be equivalents. How can we now gain in power ?
 </div>
+
+## The Method
+
+![](./img/here_to_help_2x.png){width=50%}
 
 ## COMET idea
 The BC procedure sort statistics by absolute value before looking at the signs.
@@ -491,7 +497,7 @@ Under the assumption of weakly dependent noise, if the control statistics are sy
 
 ## {#result_detect}
 
-Demo time !
+Demo time ! $\rightarrow$ <https://phd.rbacher.fr/these-app/realDetect>
 
 # Conclusion and perspectives
 
@@ -527,13 +533,13 @@ Demo time !
 - Bokeh
 - RevealJS
 - Jupyter
-
+- Julia ...
 ![](./img/logos.svg){.class width=30%}
 
 </div>
 </div>
-Présentation : <https://phd.rbacher.fr/soutenance/slides/>
+Slides : <https://phd.rbacher.fr/soutenance/slides/>
 
-Animations : <https://phd.rbacher.fr/>
+Demo : <https://phd.rbacher.fr/these-app/realDetect>
 
 ## Thank you !
