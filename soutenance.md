@@ -255,7 +255,7 @@ In case of independence (or under some special cases of dependencies) of the tes
 
 ## Application of BH procedure to our case
 
-*Simple but generic approach* : test using a matched filter $\{w_i \equiv \bd^T\by_i\}_{1\leq i \leq  n}$
+*Simple but generalizable approach* : test using a matched filter $\{w_i \equiv \bd^T\by_i\}_{1\leq i \leq  n}$
 
 **Compute empirical $p$-values**
 
