@@ -281,7 +281,7 @@ $\rightarrow$ *empirical* BH (EBH)
 
 ## Let's take a break
 
-![](./img/compiling.png)
+![](./img/compiling.png){.class width=50%}
 
 ## Barber et Candes procedure (BC)
 *BH procedure : the most well known but not always the most relevant*.
