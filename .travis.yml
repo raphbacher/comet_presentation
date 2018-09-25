@@ -1,0 +1,27 @@
+language: python
+cache: pip
+
+python:
+    - "2.7"
+
+# install pandoc and get reveal.js as we will need it to build the website
+# from Travis
+before_install:
+    - sudo apt-get install pandoc npm
+    - npm -i install mathjax-pandoc-filter
+
+install:
+    - wget https://github.com/hakimel/reveal.js/archive/master.zip
+    - unzip master.zip
+    - mv reveal.js-master reveal.js
+
+script:
+    - make reveal
+
+after_success: |
+    git checkout --orphan gh-pages
+    git rm -rf --cached .
+    mv soutenance_reveal.html index.html
+    git add -f --ignore-errors index.html figs reveal.js
+    git -c user.name='travis' -c user.email='travis' commit -m init
+    git push -f -q https://$GITHUB_USER:$GITHUB_API_KEY@github.com/$TRAVIS_REPO_SLUG gh-pages
