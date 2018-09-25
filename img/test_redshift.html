@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="redshift.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg.js"></script>
+<script type="text/javascript" src="redshift.js"></script>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style='padding:10px;font-family:arial'>
+<center>
+<h4>Sine Wave I - Full Cycle</h4>
+
+<table><tr>
+<td>
+
+</td>
+<td>
+<div id="svgDiv" style='background-color:white; width:200px;height:200px;'>
+<svg id="mySVG" width="200" height="200">
+
+</svg>
+</div>
+
+</td>
+</tr> </table>
+<br><button id=pauseResumeButton onClick=pauseResumeButtonClicked() >pause</button>
+<br />
+
+<script>
+var SNPsvg = Snap("#mySVG");
+var sineWave = SNPsvg.polyline().attr({id:'sineWave',fill: 'none',strokeWidth:4,stroke:'blue', transition: 'stroke 5s ease-in 0s'});
+document.addEventListener("onload",init(),false)
+function init()
+{
+     setTimeout(startCycle,500)
+}
+</script>
