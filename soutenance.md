@@ -45,6 +45,9 @@ mathjax.centerDisplayMath: true
 ## Limits of classical imagers for extragalactic structures
 ![An imager like Hubble is not able to observe narrow band emitters.](./img/limite_imageur.svg){.class width=90% }
 
+## Need for a new instrument
+[]!(./img/astronomy.png)
+
 ## The MUSE Project
 <div class="columns">
 <div class=column style="width: 50%">
@@ -524,6 +527,7 @@ Demo time ! $\rightarrow$ <https://phd.rbacher.fr/these-app/realDetect>
 <h3> References </h3>
 - Benjamin & Hochberg, *Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing*, 1995
 - Barber & Candes, *Controlling the false discovery rate via knockoffs*, 2015
+- XKCD
 - ...
 </div>
 <div class="column" style="width:40%">
@@ -533,13 +537,15 @@ Demo time ! $\rightarrow$ <https://phd.rbacher.fr/these-app/realDetect>
 - Bokeh
 - RevealJS
 - Jupyter
-- Julia ...
+- Julia (soon)
 ![](./img/logos.svg){.class width=30%}
 
 </div>
 </div>
-Slides : <https://phd.rbacher.fr/soutenance/slides/>
+Slides : <https://raphbacher.github.io/comet_presentation>
 
 Demo : <https://phd.rbacher.fr/these-app/realDetect>
 
 ## Thank you !
+
+![](./img/team_effort.png)
