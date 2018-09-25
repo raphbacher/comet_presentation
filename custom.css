@@ -1,0 +1,82 @@
+<style type="text/css">
+  p.title {font-size: 1.4em; text-align: center}
+  .reveal h2 { font-size: 1.6em; text-transform: none; margin: 10px 10px}
+  .reveal h3 { font-size: 1.3em; text-transform: none; margin: 10px 10px}
+  .reveal h4 { font-size: 1.3em; text-transform: none; margin: 10px 10px}
+	.reveal h1 { font-size: 2em; text-transform: none; margin: 10px 10px;text-align: center}
+	.reveal {font-size: 1.8em; }
+	.reveal p {text-align: left; margin: 0px 10px}
+  p.author {text-align: center}
+  p.date {text-align: center}
+  p.institut {text-align: center}
+  p.supervisors {text-align: center}
+  	.reveal ul {margin: 0 0 0 3em;}
+	section.slide.present {text-align:left;
+		border-radius:10px;
+		padding:10px 10px 10px 6px;
+		margin:10px;
+		background:#000;
+		border:5px solid #fff;
+        }
+
+section.slide.level2.present { top: 10px!important;}
+
+section#result_deblend.slide.level2.present {opacity: 0}
+section#result_detect.slide.level2.present {opacity: 0}
+
+	 #myvideo.section.present{opacity: 0}
+	.reveal .slide h1 { text-align: center; margin: 10px 10px}
+	.reveal .slide h2 { text-align: center; margin: 10px 10px}
+	.reveal .slide figure { text-align: center}
+	.reveal .slide-background video {z-index:99}
+	.reveal section img {
+		display: block;margin: 0 auto;
+		background: #fff;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border:1px solid #9FC6FF;
+		padding:5px;
+		/*arrondir les coins en haut à gauche et en bas à droite*/
+		-moz-border-radius:10px 10px;
+		-webkit-border-radius:10px 10px;
+		border-radius:10px 10px;
+}
+	div.notice-box {
+	    color:#555;
+	    border-radius:10px;
+	    padding:10px 10px 10px 10px;
+	    margin:10px;
+		background:#e3f7fc;
+		border:5px solid #8ed9f6;
+	}
+
+  .reveal section img.logo {
+	 	float: right;
+	   	width: 10%;
+		margin:1pt;
+		border:10pt;
+		border-radius: 3pt;
+		border-color: white;
+		background-color=white
+		box-shadow:none;
+  		}
+  .reveal section img.logoGipsa {width: 14%}
+  .reveal section img.logoCral {width: 14%}
+  .columns {display:flex;  align-items:top;}
+  .columns-center {display:flex;  align-items:center;}
+  div .column {display: inline-block; width: 50%; float:left; vertical-align: top;margin:10px;}
+  div.center_custom {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+.reveal figcaption {font-style: italic;}
+.reveal video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+.reveal .slide-number {font-size: 15pt}
+.bk-root{color: white;}
+.reveal .controls {bottom:30px}
+</style>

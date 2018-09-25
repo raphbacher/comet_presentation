@@ -1,0 +1,11 @@
+<svg id="mySVG" width="200" height="200">
+
+<desc>
+Created with Snap</desc>
+<defs>
+</defs>
+<polyline id="sineWave" style="stroke-width: 4; transition: stroke 5s ease-in;" fill="none" stroke="#0000ff" >
+</polyline>
+
+
+</svg>
