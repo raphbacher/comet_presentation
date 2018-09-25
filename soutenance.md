@@ -160,7 +160,7 @@ $$
 \label{eq:testingPb0}
 $$
 </div>
-- $\beps \in \mathbb{R}^l$ : noise vector of unknown distribution but **symmetrical* by hypothesis* ;
+- $\beps \in \mathbb{R}^l$ : noise vector of unknown distribution but assumed **symmetrical** ;
 - $\bd \in \mathbb{R}^l$ : known reference (Lyman signature) ;
 - $\by_i \in \mathbb{R}^l$ : spectrum vector
 
@@ -171,7 +171,7 @@ We have $n$ (~ 2500) pixels to test for :
 
 ![](./img/exempleHalo.svg){.class width=30%}
 
-How to have guaranties on the detection results, like the proportion of pixels among the detected set that are really part of the target ("purity of the detection") ? 
+How to have guaranties on the detection results, like the proportion of pixels among the detected set that are really part of the target ("purity of the detection") ?
 
 ## Multiple testing (2/2)
 <div class="center_custom">
