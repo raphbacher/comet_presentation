@@ -46,7 +46,7 @@ mathjax.centerDisplayMath: true
 ![An imager like Hubble is not able to observe narrow band emitters.](./img/limite_imageur.svg){.class width=90% }
 
 ## Need for a new instrument
-![](./img/astronomy.png)
+![](./img/astronomy.png){.class width=80%}
 
 ## The MUSE Project
 <div class="columns">
@@ -331,7 +331,7 @@ With these control statistics,   and BC procedures can be shown to be equivalent
 
 ## The Method
 
-![](./img/here_to_help_2x.png){width=50%}
+![](./img/here_to_help_2x.png){width=80%}
 
 ## COMET idea
 The BC procedure sort statistics by absolute value before looking at the signs.
