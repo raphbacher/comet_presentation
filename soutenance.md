@@ -239,7 +239,7 @@ $$
 
 <h3> BH procedure</h3>
 Do $n$ tests that give $p$-values $p_{1} \ldots p_{n}$.
-Note ordered $p$-values $p_{(1)} \leq p_{(k)}\leq p_{(n)}$ with convention p_{(0)}=0.
+Note ordered $p$-values $p_{(1)} \leq p_{(k)}\leq p_{(n)}$ with convention $p_{(0)}=0$.
 
 To get a FDR less or equal to $q$  when doing $n$ tests :
 
@@ -278,6 +278,8 @@ $p$-value associated to the pixel $i$ : $p_i = 1-\hat{F}_0(w_i)$.
 
 We can then apply the BH procedure to the empirical $p$-values
 $\rightarrow$ *empirical* BH (EBH)
+
+## Let's take a break
 
 ![](./img/compiling.png)
 
@@ -498,9 +500,9 @@ Under the assumption of weakly dependent noise, if the control statistics are sy
     * Control statistics : max over all atoms of the Spectral Angular Distance (SAD) .
     $$SAD(\bd_{0},\bx) = \frac{\bd_{0}.\bx}{||\bd_{0}|| ||\bx||}$$
 
-## {#result_detect}
+## Demo time !
 
-Demo time ! $\rightarrow$ <https://phd.rbacher.fr/these-app/realDetect>
+$\rightarrow$ <https://phd.rbacher.fr/these-app/realDetect>
 
 # Conclusion and perspectives
 
